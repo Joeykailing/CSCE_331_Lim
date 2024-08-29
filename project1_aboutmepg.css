@@ -1,0 +1,84 @@
+body {
+    font-family: 'Inika', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #f7b700;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.about-me {
+    width: 60%;
+    float: left;
+    padding: 20px;
+}
+
+.about-me h2 {
+    color: #000000;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    text-align: center;
+    background-color: #f7b700;
+}
+
+
+.about-me p {
+    font-size: 24px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.about-images {
+    width: 35%;
+    float: right;
+    text-align: center;
+}
+
+.about-images img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
